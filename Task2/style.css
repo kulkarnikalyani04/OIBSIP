@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+.container {
+    background-color: rgba(176, 174, 174, 0);
+    min-height: 100vh;
+    border: 3px solid rgb(61, 40, 40);
+}
+.tag p {
+    margin: 50px 5px;
+    padding: 18px 15px;
+    font-size: 24px;
+}
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.topSection h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.imgContainer {
+    background-color: rgb(79, 89, 99);
+    border-radius: 60%;
+    overflow: hidden;
+}
+.imgContainer,
+img {
+    width: 250px;
+    height: 290px;
+}
+.topSection {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.aboutSection {
+    margin-top: 40px;
+}
+.aboutSection h2 {
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+.aboutSection p {
+    margin-left: 30px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1.3px;
+}
+.front {
+    margin: 70px 100px;
+}
+.front h3 {
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.front p {
+    font-style: italic;
+    margin-left: 30px;
+    margin-bottom: 8px;
+    font-size: 19px;
+    line-height: 20px;
+    letter-spacing: 1.2px
+}
+.education h3 {
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.education p {
+    margin-left: 30px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1.2px
+}
+.career , .awards , .end, .education{
+    margin: 20px 20px;
+}
+.career h3 {
+    margin-left: 0;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.career p {
+    margin-left: 30px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1.2px
+}
+.awards h3 {
+    margin-left: 0;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.awards ul {
+    margin-left: 30px;
+}
+.awards p {
+    font-size: 18px;
+
+}
+.awards p,
+li {
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+}
+footer {
+    margin: 50px 0;
+}
+footer p {
+    text-align: end;
+}
+.end h4 {
+    margin-left: 0;
+    margin-bottom: 9px;
+    font-size: 23px;
+}
+.end p {
+    margin-left: 30px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1.2px
+}
